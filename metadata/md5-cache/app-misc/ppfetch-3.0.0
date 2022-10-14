@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=A simple, basic, and posix fetch.
+EAPI=7
+HOMEPAGE=https://github.com/pedroportales/ppfetch
+IUSE=X
+KEYWORDS=~amd64 ~arm64 ~ppc64 ~x86
+LICENSE=AGPL-3
+RDEPEND=X? ( x11-apps/xprop )
+SLOT=0
+SRC_URI=https://github.com/pedroportales/ppfetch/archive/refs/tags/v3.0.0.tar.gz -> ppfetch-3.0.0.tar.gz
+_md5_=88476a49b67cbe1cae1de08a1e1403e0
