@@ -2,17 +2,17 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="person">
-		<email>redson@riseup.net</email>
-		<name>Redson</name>
+    <email>redson@riseup.net</email>
+    <name>Redson</name>
   </maintainer>
-	<longdescription lang="en">
-		A program to read and control device brightness
+  <longdescription lang="en">
+    A program to read and control device brightness
 
-		This program allows you read and control device brightness. Devices, by default, include backlight and LEDs (searched for in corresponding classes).
-		If omitted, the first found device is selected.
-		It can also preserve current brightness before applying the operation (allowing for usecases like disabling backlight on lid close).
-	</longdescription>
-	<upstream>
-		<remote-id type="github">Hummer12007/brightnessctl</remote-id>
-	</upstream>
+    This program allows you read and control device brightness. Devices, by default, include backlight and LEDs (searched for in corresponding classes).
+    If omitted, the first found device is selected.
+    It can also preserve current brightness before applying the operation (allowing for usecases like disabling backlight on lid close).
+  </longdescription>
+  <upstream>
+    <remote-id type="github">Hummer12007/brightnessctl</remote-id>
+  </upstream>
 </pkgmetadata>
