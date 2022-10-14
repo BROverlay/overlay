@@ -5,6 +5,12 @@
     <email>redson@riseup.net</email>
     <name>Redson</name>
   </maintainer>
+  <use>
+    <flag name="X">
+      Support for wm detection, if disabled, the wm will ever be "none"
+      If on Wayland, it will probably show "wlroots wm"
+    </flag>
+  </use>
   <upstream>
     <bugs-to>https://github.com/pedroportales/ppfetch/issues</bugs-to>
     <remote-id type="github">pedroportales/ppfetch</remote-id>
