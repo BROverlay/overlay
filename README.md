@@ -1,8 +1,8 @@
 # `BROverlay`
-Overlay containing ebuilds made by a small Gentoo community, learning how to do them. The focus is to have general porpuse ebuilds, available for everyone.
+Overlay containing ebuilds made by a small Gentoo community, learning how to do them. The focus is to have general-purpose ebuilds, available to everyone.
 
 ## Installing 
-Unfortunately, our overlay is not available on `eselect` or `layman` yet, so you have to do a manual installation.
+Unfortunately, our overlay is not available in `eselect` or `layman` yet, so you have to do a manual installation.
 
 ### Manual Installation
 Create a file `/etc/portage/repos.conf/broverlay.conf` with the following content:
