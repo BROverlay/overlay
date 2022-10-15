@@ -9,7 +9,7 @@ DESCRIPTION="Wofi is a launcher/menu program for wlroots based wayland composito
 HOMEPAGE="https://hg.sr.ht/~scoopta/wofi"
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORD="~amd64 ~x86"
+KEYWORDS="~amd64 ~x86"
 
 SRC_URI="https://hg.sr.ht/~scoopta/wofi/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${PN}-v${PV}"
