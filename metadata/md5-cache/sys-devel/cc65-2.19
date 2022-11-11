@@ -1,0 +1,9 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=A freeware C compiler for 6502 based systems
+EAPI=7
+HOMEPAGE=https://cc65.github.io/
+KEYWORDS=~amd64 ~x86
+LICENSE=ZLIB
+SLOT=0
+SRC_URI=https://github.com/cc65/cc65/archive/refs/tags/V2.19.tar.gz -> cc65-2.19.tar.gz
+_md5_=7327db6ccc1add5064ca792af0c47891

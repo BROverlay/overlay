@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=A freeware C compiler for 6502 based systems
+EAPI=7
+HOMEPAGE=https://cc65.github.io/
+INHERIT=git-r3
+LICENSE=ZLIB
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=7327db6ccc1add5064ca792af0c47891
