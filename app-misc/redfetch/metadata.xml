@@ -2,12 +2,11 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="person">
-		<email>redson@riseup.net</email>
-		<name>Redson</name>
-    <description>Primary maintainer</description>
-	</maintainer>
-	<upstream>
-		<bugs-to>https://codeberg.org/redson/Redfetch/issues</bugs-to>
-		<remote-id type="codeberg">redson/Redfetch</remote-id>
-	</upstream>
+    <email>redson@riseup.net</email>
+    <name>Redson</name>
+  </maintainer>
+  <upstream>
+    <bugs-to>https://github.com/RedsonBr140/Redfetch/issues</bugs-to>
+    <remote-id type="github">RedsonBr140/Redfetch</remote-id>
+  </upstream>
 </pkgmetadata>

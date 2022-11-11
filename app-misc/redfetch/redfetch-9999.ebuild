@@ -8,6 +8,7 @@ if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://codeberg.org/redson/${PN}"
 else
 	SRC_URI="https://codeberg.org/redson/Redfetch/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+	KEYWORDS="~amd64 ~x86 ~arm ~arm64 ~ppc ~ppc64"
 	S="${WORKDIR}/redfetch"
 fi
 
@@ -16,8 +17,6 @@ HOMEPAGE="https://codeberg.org/redson/Redfetch"
 LICENSE="MIT"
 
 SLOT="0"
-
-KEYWORDS="~amd64"
 
 RDEPEND=">=x11-misc/wmctrl-1.07-r3"
 

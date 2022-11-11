@@ -4,10 +4,9 @@ DESCRIPTION=A fast fetch written in C, with the ppfetch Ascii Art.
 EAPI=7
 HOMEPAGE=https://codeberg.org/redson/Redfetch
 INHERIT=git-r3
-KEYWORDS=~amd64
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=x11-misc/wmctrl-1.07-r3
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=2b3990ab67c846ae0b9e2045a728ec73
+_md5_=a9542a77d656e4b3dcb9f3d0c8dd3295
