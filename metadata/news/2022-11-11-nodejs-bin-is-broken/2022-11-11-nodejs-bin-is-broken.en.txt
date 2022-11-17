@@ -1,7 +1,7 @@
 Title: NodeJS Binary package is broken
 Author: Redson <redson@riseup.net>
 Posted: 2022-11-11
-Revision: 1
+Revision: 2
 News-Item-Format: 2.0
 
 Ok so... I added a new package, "net-libs/nodejs-bin". Unfortunately, it has
