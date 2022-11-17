@@ -9,13 +9,13 @@ broken permissions, so if you don't know what are you doing, you will remain
 with a broken package.
 
 At the moment that i'm writing this, the broken binaries are:
-```
-/usr/bin/corepack -> /usr/lib/node_modules/corepack/dist/corepack.js
-/usr/bin/npm -> /usr/lib/node_modules/npm/bin/npm-cli.js*
-/usr/bin/npx -> /usr/lib/node_modules/npm/bin/npx-cli.js
-```
 
-So, if you want it working, you should `chmod` on the files above.
+  /usr/bin/corepack -> /usr/lib/node_modules/corepack/dist/corepack.js
+  /usr/bin/npm -> /usr/lib/node_modules/npm/bin/npm-cli.js*
+  /usr/bin/npx -> /usr/lib/node_modules/npm/bin/npx-cli.js
+
+
+So, if you want it working, you should `chmod 755` on the files above.
 
 Further resources:
 * https://man7.org/linux/man-pages/man1/chmod.1.html
