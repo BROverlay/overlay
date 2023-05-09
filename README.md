@@ -2,7 +2,22 @@
 Overlay containing ebuilds made by a small Gentoo community, learning how to do them. The focus is to have general-purpose ebuilds, available to everyone.
 
 ## Installing 
-Unfortunately, our overlay is not available in `eselect` or `layman` yet, so you have to do a manual installation.
+This overlay can be installed both manually or using overlay managers, such as
+`eselect-repository`. Don't forget to `emaint sync -a` or `emerge --sync`
+after doing any installation procedure below.
+
+### Using `eselect-repository`
+
+```
+eselect repository enable broverlay
+```
+
+### Using `layman`
+
+```
+layman -L
+layman -a broverlay
+```
 
 ### Manual Installation
 Create a file `/etc/portage/repos.conf/broverlay.conf` with the following content:
