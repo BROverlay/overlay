@@ -7,9 +7,9 @@ inherit desktop
 
 DESCRIPTION="Turn your phone into a microphone or speakers for PC"
 HOMEPAGE="https://audiorelay.net"
-LICENSE="proprietary"
+LICENSE="all-rights-reserved"
 
-SRC_URI="https://dl.audiorelay.net/setups/linux/audiorelay-0.27.5.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://dl.audiorelay.net/setups/linux/${P}.tar.gz"
 KEYWORDS="-* ~amd64"
 SLOT="0"
 
@@ -17,7 +17,6 @@ S="${WORKDIR}"
 
 RDEPEND="media-libs/alsa-lib
 		dev-libs/libbsd
-		sys-libs/glibc
 		sys-apps/dbus
 		media-libs/flac
 		sys-devel/gcc

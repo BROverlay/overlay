@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <maintainer type="person">
-		<email>redson@riseup.net</email>
-		<name>Redson dos Santos</name>
+    <email>redson@riseup.net</email>
+    <name>Redson dos Santos</name>
   </maintainer>
 </pkgmetadata>
