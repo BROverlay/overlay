@@ -9,5 +9,5 @@ LICENSE=AGPL-3
 PROPERTIES=live
 RDEPEND=X? ( x11-apps/xprop )
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=c49f0daf0f60666ff8a77db881350d06

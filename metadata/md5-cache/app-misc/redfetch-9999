@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=>=x11-misc/wmctrl-1.07-r3
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=a9542a77d656e4b3dcb9f3d0c8dd3295

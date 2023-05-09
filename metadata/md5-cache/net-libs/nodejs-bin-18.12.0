@@ -4,9 +4,9 @@ DESCRIPTION=A JavaScript runtime built on Chrome's V8 JavaScript engine
 EAPI=7
 HOMEPAGE=https://nodejs.org/
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=-* ~amd64
 LICENSE=Apache-1.1 Apache-2.0 BSD BSD-2 MIT
 RDEPEND=>=app-arch/brotli-1.0.9:= >=dev-libs/libuv-1.40.0:= >=net-dns/c-ares-1.17.2:= >=net-libs/nghttp2-1.41.0:= sys-libs/zlib >=dev-libs/icu-67:= >=dev-libs/openssl-1.1.1:0= sys-devel/gcc:*
 SLOT=0
 SRC_URI=https://nodejs.org/dist/v18.12.0/node-v18.12.0-linux-x64.tar.xz -> nodejs-bin-18.12.0.tar.xz
-_md5_=e22af71543c14ea24fc15232c54a0243
+_md5_=f3d7fbfa3d7d2ce03e512944929bb8e2
